@@ -50,3 +50,23 @@ color: white;
     background-color: #222;
     color: gold;
 }
+@media (max-width: 650px) {
+    .sitenav-container {
+        justify-content: center;
+    }
+    .sitenav__logo {
+        margin: 15px 0;
+    }
+    .sitenav__list {
+        justify-content: center;
+        width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    .sitenav__list {
+        flex-direction: column;
+    }
+    .sitenav__item {
+        text-align: center;
+    }
+}
